@@ -1,0 +1,370 @@
+body{
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	background-color: #F3FAFB !important;
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	position: /*fixed!important*/;
+	top: 0 !important;
+	padding-top: 60px;
+}
+h1,h2,h3,h4,h5{
+	font-family: "Playfair Display" !important;
+	text-align: center;
+}
+.custom-navbar{
+	background-color:#2E8585;
+}
+.custom-logo{
+	width: 120px;
+	height: 60px !important;
+}
+.logo{
+	padding-top: 15px;
+	font-family: Algerian; 
+}
+.nav-item > a{
+	color: white !important;
+	transition: .5s;
+	padding-right: 40px!important;
+	margin-right: 25px;
+	font-weight: bold; 
+} 
+.nav-item > a:hover{
+	color: grey !important;
+}
+.carousel-item > img{
+	height: 700px;
+}
+.btn-right{
+	font-size: 30px;
+	margin-right: 100px;
+}
+.btn-left{
+	font-size: 30px;
+	margin-left: 100px;
+}
+@media only screen and (max-width: 600px){
+	.carousel-item > img{
+		height: 200px;}	
+	.caption-text{
+	text-align: center;
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	opacity: .6;
+	font-size: 12px;
+	width: 100%;
+	margin-left: 0px !important;
+	margin-bottom: 0px !important;
+	}
+	.btn-right{
+	font-size: 20px;
+	padding-right: 100px;
+
+	}
+	.btn-left{
+	font-size: 20px;
+	padding-left: 100px;
+	}
+
+}
+.caption-text{
+	text-align: center;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	opacity: .6;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-top: 20px !important;
+}
+.custom-img1{
+	height: 550px !important;
+}
+.heading1{
+	font-family: "Playfair Display" !important;
+	text-align: center;
+	padding: 40px;
+	padding-top: 200px;
+	font-weight: bold;
+}
+.para1{
+	margin: 15px;
+	text-align: center;
+}
+.btn1{
+	background-color: #6FD1DF;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 260px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+@media only screen and (max-width: 600px){
+	.custom-img1{
+		height: 300px !important;
+		margin:0; 
+	}
+	.heading1{
+		font-family: "Playfair Display" !important;
+		text-align: center;
+		padding: 15px;
+		padding-top: 70px;
+		font-weight: bold;
+	}
+	.btn1{
+		background-color: #6FD1DF;
+	    border: none;
+	    border-radius: 30px;
+	    color: white;
+	    padding: 15px 32px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+	    margin: 40px 105px;
+	    cursor: pointer;
+	    font-weight: bold;
+	    text-decoration: none !important;
+	}
+}
+.custom-1{
+	box-sizing: border-box;
+	background-color: white;
+	margin: 0;
+	padding: 0;
+	transition: .5s;
+}
+.custom-1:hover{
+	margin-top: -20px;
+	opacity: 0.8;
+}
+.custom-1 > h4,p{
+	font-family: Playfair Display;
+	text-align: center !important;
+
+}
+.btn2{
+	background-color: #6FD1DF;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 210px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+@media only screen and (max-width: 600px){
+	.btn2{
+	background-color: #6FD1DF;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 110px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none !important;
+	}
+}
+.pricing{
+	border:1px dashed ;
+	margin: 10px;
+}
+.custom-price{
+	height: 400px !important;
+	background-color: white;
+	padding-top: 50px;
+	box-sizing: border-box;
+	color: white;
+	background-image: url(../img/gym.jpg);
+	font-weight: bolder;
+}
+.custom-price > p{
+	color: black;
+	font-weight: bold;
+}
+.custom-price1{
+	height: 400px !important;
+	background-color: white;
+	padding-top: 50px;
+	box-sizing: border-box;
+	color: black;
+	font-weight: bolder;
+}
+.custom-price2{
+	height: 400px !important;
+	background-color: #EAEAEA;
+	padding-top: 50px;
+	box-sizing: border-box;
+	color: black;
+	font-weight: bolder;
+}
+.custom-features{
+	height: 400px !important;
+	width: 500px;
+	transition: .3s;
+}
+.custom-features:hover{
+	opacity: 0.5;
+	margin: -10px;
+}
+.custom-gallery{
+	margin: 0;
+	padding: 0;
+	height: 300px !important;
+	width: 500px;
+	transition: .5s;
+}
+.custom-gallery:hover{
+	opacity: 0.5;
+
+}
+.custom-trainers{
+	height: 300px !important;
+	width: 500px;
+	transition: .4s;
+}
+.custom-trainers:hover{
+	margin: 10px;
+	opacity: .5;
+}
+.footer{
+	background-color: #116666 !important; 
+	padding: 20px;
+}
+.footer ul.unstyle-list{
+	list-style-type: none;
+	padding-top: 65px;
+}
+.footer ul.unstyle-list > h3{
+	color:white;
+}
+.footer ul.unstyle-list > li > a {
+	text-decoration: none;
+	color:white !important;
+	display: inline;
+	transition: .5s;
+}
+.footer ul.unstyle-list > li > a:hover {
+	margin-left:5px;
+	font-size: 20px; 
+}
+.footer h3.logo-text{
+	display: inline;
+	color:white;
+	padding-left: 10px;
+}
+.footer-para{
+	color:white;
+	display: inline;
+	color:white;
+}
+.footer a.copyright-link{
+	text-decoration: none;
+	color:white;
+	font-size: 20px;
+	transition: .5s;
+}
+.footer div.social-icons > ul >  li > a > i{
+	font-size: 25px;
+	color:white ;
+	transition: .5s;
+	padding:10px;
+}
+.footer div.social-icons > ul >  li > a > i.fb:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: #5271b3;
+	color:white;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.tw:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: white;
+	color:#269AFF;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.ln:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: #3FA6FF;
+	color:white;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.g:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color: #FF4B4B;
+	color:white;
+	border-radius: 50px;
+}
+.footer div.social-icons > ul >  li > a > i.yt:hover{
+	font-size: 30px;
+	margin-top: -10px;
+	background-color:red;
+	color:white;
+	border-radius: 50px;
+}
+@media only screen and (max-width: 600px){
+	.footer div.social-icons > ul >  li > a > i{
+	font-size: 15px;
+	color:white;
+	transition: .5s;
+	padding:10px;
+	}
+	.footer div.social-icons > ul >  li > a > i.fb{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: #5271b3;
+		color:white;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.tw{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: white;
+		color:#269AFF;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.ln{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: #3FA6FF;
+		color:white;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.g{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color: #FF4B4B;
+		color:white;
+		border-radius: 50px;
+	}
+	.footer div.social-icons > ul >  li > a > i.yt{
+		font-size: 15px;
+		margin-top: -10px;
+		background-color:red;
+		color:white;
+		border-radius: 50px;
+	}
+}
